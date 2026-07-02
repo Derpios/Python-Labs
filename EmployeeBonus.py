@@ -22,11 +22,11 @@ if productivityScore > 30:
     if productivityScore > 69:
         if productivityScore >= 200:
             bonus = bonus_4
-        elif productivityScore <200:
+        else:
             bonus = bonus_3
-    elif productivityScore <= 69:
+    else:
         bonus = bonus_2
-elif productivityScore <= 30:
+else:
     bonus = bonus_1
 
 # Output.
