@@ -7,6 +7,6 @@ passengerAge = int(ageString) # Passenger's age.
 
 # Test to see if this passenger is eligible for a 25% discount.
 if passengerAge <= 6 or passengerAge >= 65:
-    print("Passenger is eligible for discount")
+    print(passengerName, "is eligible for discount")
 else:
-    print("Passenger is not eligible for discount")
+    print(passengerName, "is not eligible for discount")
